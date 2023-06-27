@@ -43,12 +43,6 @@ public class Employe {
 	  private EmployeeDet employeeDetails;
 	  
 	  
-	  
-	@Override
-	public String toString() {
-		return "Employe [name=" + name + ", mail=" + mail + ", department=" + department + ", employeeDetails="
-				+ employeeDetails + "]";
-	}
 	public int getEmpid() {
 		return empid;
 	}
