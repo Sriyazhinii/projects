@@ -29,11 +29,7 @@ public class EmployeeDet {
 	private int noOfYears;
 	
 	
-	@Override
-	public String toString() {
-		return "EmployeeDet [id=" + id + ", address=" + address + ", salary=" + salary + ", noOfYears=" + noOfYears
-				+ "]";
-	}
+	
 	public int getId() {
 		return id;
 	}
